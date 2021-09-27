@@ -1,0 +1,38 @@
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 50;
+  background-color: #fff;
+  &__logo {
+    padding: 1rem;
+    img{
+      height: 60px;
+    }
+  }
+}
+nav a{
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 17px;
+  color: #2B2D3A;
+  &:hover{            
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;     
+    color: #3265b6;
+    position: relative;
+  }
+  &:active{            
+      font-style: normal;
+      font-weight: 600;
+      line-height: 17px;     
+      color: #397DFF;
+  }
+}
